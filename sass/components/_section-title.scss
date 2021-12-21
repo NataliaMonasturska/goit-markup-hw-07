@@ -1,0 +1,16 @@
+.section-title {
+  text-align: center;
+  @include font($fz: 36px, $lh: 1.16);
+  color: var(--second-title-color);
+  margin-bottom: 50px;
+}
+.hero-title {
+  @include font($fw: 900, $fz: 44px, $lh: 1.36, $ls: 0.06em);
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  width: 696px;
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
