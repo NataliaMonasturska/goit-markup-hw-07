@@ -6,11 +6,11 @@
 .clients-list {
   display: flex;
 }
-.clients-item {
+.clients-list__item {
   width: 170px;
   height: 92px;
 }
-.clients-link {
+.clients-list__link {
   width: 100%;
   height: 100%;
   border: solid 1px var(--main-icon-color);
@@ -25,13 +25,14 @@
     color: var(--assent-color);
   }
 }
-.clients-item + .clients-item {
+.clients-list__item + .clients-list__item {
   margin-left: 30px;
 }
 
-.clients-icon {
+.clients-list__icon {
   fill: currentColor;
 }
-.command-social-item + .command-social-item {
-  margin-left: 10px;
+
+.clients__section-title {
+  margin-bottom: 50px;
 }
